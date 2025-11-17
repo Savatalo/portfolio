@@ -1,0 +1,86 @@
+
+
+.social-box {
+  border: 2px solid;
+  border-color: #893030;
+  padding: 10px; 
+  border-radius: 5px; 
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.characterImg{
+  margin-top: 20px;
+  height: 300px;
+}
+
+.title{
+  margin: 0;
+}
+
+.name{
+    color: #893030;
+    margin: 0;
+}
+
+.link-div{
+  text-align: left;
+}
+
+.link {
+   color: #893030;
+}
+
+.main-div{
+  display: flex;
+  margin-left: 230px;
+  flex-wrap: wrap;
+}
+
+.prompt {
+  user-select: none; 
+}
+
+.terminal-input-line {
+  display: flex;
+  font-family: "Courier New", monospace;
+  color: lime;
+  border: 2px solid;
+  border-color: #893030;  
+  padding-bottom: 300px;   
+  padding-top: 16px;
+  padding-left: 16px;   
+}
+
+.terminal-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: "Courier New", monospace;
+  max-width: 470px; 
+  min-width: 100px;
+}
+
+
+.terminal-manual{
+  border: 2px solid;
+  border-color: #893030; 
+  max-width: 700px;
+  min-width: 200px;
+  padding: 18px;
+}
+.terminal{
+  margin-left: 15px;
+}
+
+.portfolio{
+  color: #893030;
+}
+
+.command{
+  color: #893030;
+}
+
+
+
