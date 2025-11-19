@@ -33,35 +33,12 @@
 }
 
 .main-div{
-  display: flex;
-  margin-left: 230px;
-  flex-wrap: wrap;
+    display: flex;
+  justify-content: center;    
+  align-items: center;        
+  height: 100vh;              
+  width: 100%;
 }
-
-.prompt {
-  user-select: none; 
-}
-
-.terminal-input-line {
-  display: flex;
-  font-family: "Courier New", monospace;
-  color: lime;
-  border: 2px solid;
-  border-color: #893030;  
-  padding-bottom: 300px;   
-  padding-top: 16px;
-  padding-left: 16px;   
-}
-
-.terminal-input {
-  background: transparent;
-  border: none;
-  outline: none;
-  font-family: "Courier New", monospace;
-  max-width: 470px; 
-  min-width: 100px;
-}
-
 
 .terminal-manual{
   border: 2px solid;
@@ -70,9 +47,7 @@
   min-width: 200px;
   padding: 18px;
 }
-.terminal{
-  margin-left: 15px;
-}
+
 
 .portfolio{
   color: #893030;
@@ -81,6 +56,67 @@
 .command{
   color: #893030;
 }
+
+.main-terminal {
+    border: 2px solid;
+    border-color: #893030;
+    margin-bottom: 20px;
+    height: 315px;
+    text-align: left;
+    font-family: monospace;
+    font-size: 16px;
+    padding: 10px;
+    white-space: pre-wrap;
+    overflow-y: auto;
+    word-break: break-word;
+    scrollbar-width: none;
+}
+
+.input-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.prompt {
+    flex-shrink: 0;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-color: transparent;
+    height: 24px;
+    flex: 1;
+    min-width: 0;
+    font-family: monospace;
+    font-size: 16px;
+    caret-color: white;
+}
+
+.dc {
+    font-weight: bold;
+    color: #893030;
+}
+
+.gc {
+    color: #39FF14;
+}
+
+.cw {
+    color: #ff8a00;
+}
+
+.terminal {
+  margin-left:  15px;
+  max-width: 700px;
+}
+
+
 
 
 
