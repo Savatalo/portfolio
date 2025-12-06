@@ -1,0 +1,24 @@
+.ascii-clock-wrap {
+  text-align: center;
+  color: #893030;
+  font-family: "Courier New", monospace;
+  user-select: none;
+  margin: 20px auto;
+}
+
+.ascii-clock {
+  font-size: 16px;
+  line-height: 16px;
+  white-space: pre;
+}
+
+.ascii-clock-foot {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #893030;
+}
+
+.time-string {
+  font-weight: bold;
+  color: #893030;
+}
