@@ -1,5 +1,5 @@
 // src/components/AsciiClock.tsx
-import React, { useEffect, useMemo, useState } from "react";
+import { useState, useEffect, useMemo } from 'react';
 import "./AsciiClock.css";
 
 const DIGITS: Record<string, string[]> = {
