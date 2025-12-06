@@ -5,7 +5,7 @@ interface TerminalProps {
     inputRef: React.RefObject<HTMLInputElement | null>;
 }
 
-const Terminal: React.FC<TerminalProps> = ({ onTerminate, inputRef }) => {
+const Terminal: React.FC<TerminalProps> = ({inputRef }) => {
 
     const fileSystem = {
         "~": {

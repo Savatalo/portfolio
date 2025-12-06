@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from 'react'
 import Social from './components/Social.tsx'
 import Terminal from './components/Terminal.tsx'
 import AsciiClock from './components/AsciiClock.tsx'
